@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="header">
+        <img src="public/image/neko.gif"
+          alt="Header" class="header-img" style="width: 75%;">
+      </div>
+    </div>
+    <p class="subtitle">Software Engineering Student</p>
+    <nav class="navigation">
+      <a href="https://doniwicaksono.me">home</a> ·
+      <a href="https://doniwicaksono.vercel.app">resume</a> ·
+      <a href="https://doniwicaksono.vercel.app/blog">blog</a> ·
+      <a href="https://github.com/slashedzer0">github</a> ·
+      <a href="javascript:void(0);">linkedin</a> ·
+      <a href="mailto:doniwicaksonox@gmail.com">contact</a>
+    </nav>
+  </div>
+  </div>
+
+  <script>
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const container = document.querySelector('.container');
+
+    if (prefersDarkScheme) {
+      container.classList.add('dark-mode');
+    }
+  </script>
+</body>
+
+</html>
