@@ -40,7 +40,7 @@ body {
 .subtitle {
   font-style: italic;
   margin-bottom: 1.5rem;
-  color: #71717a; /* zinc-500 */
+  color: #71717a;
 }
 
 .navigation a {
@@ -50,11 +50,11 @@ body {
 }
 
 .navigation a:hover {
-  color: #71717a; /* zinc-500 */
+  color: #71717a;
 }
 
 .container.dark-mode .navigation a:hover {
-  color: #a1a1aa; /* zinc-400 */
+  color: #a1a1aa;
 }
 
 @media (max-width: 768px) {
