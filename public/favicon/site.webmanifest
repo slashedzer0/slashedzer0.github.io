@@ -20,5 +20,15 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "description": "Doni Wicaksono's front page",
+  "author": "Doni Wicaksono",
+  "keywords": "Doni Wicaksono, Software Engineering, Personal Website",
+  "apple_mobile_web_app_capable": "yes",
+  "apple_mobile_web_app_status_bar_style": "black-translucent",
+  "apple_mobile_web_app_title": "Doni Wicaksono",
+  "application_name": "Doni Wicaksono",
+  "msapplication_TileColor": "#ffffff",
+  "msapplication_TileImage": "public/favicon/mstile-144x144.png",
+  "msapplication_config": "public/favicon/browserconfig.xml"
 }
