@@ -50,11 +50,11 @@ body {
 }
 
 .navigation a:hover {
-  color: #71717a;
+  color: #a1a1aa;
 }
 
 .container.dark-mode .navigation a:hover {
-  color: #a1a1aa;
+  color: #c1c1cc;
 }
 
 @media (max-width: 768px) {
